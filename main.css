@@ -1,0 +1,13 @@
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+img {
+    width:500px;
+    max-width:100%;
+}
+
+.center{
+    text-align: center;
+}
