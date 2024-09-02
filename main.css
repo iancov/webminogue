@@ -1,13 +1,50 @@
 body{
     max-width: 500px;
     margin: auto;
+    padding-bottom: 25px;
 }
+
+@font-face {
+    font-family:Redaction20;
+    src: url(Redaction20-YzPy2.otf);
+  }
+
+  @font-face {
+    font-family:Redaction20Bold;
+    src: url(Redaction20Bold-2ODWX.otf);
+  }
 
 img {
     width:500px;
     max-width:100%;
 }
 
-.center{
+/* unvisited link */
+a:link {
+    color:rgb(100,115,110);
+  }
+  
+  /* visited link */
+  a:visited {
+    color:rgb(100,115,110);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:rgb(100,115,110,0.600);
+  }
+  
+  /* selected link */
+  a:active {
+    color:rgb(100,115,110);
+  }
+
+.h1{
     text-align: center;
+    font-family:Redaction20Bold;
+}
+
+.p1{
+    text-align: center;
+    font-family:Redaction20;
 }
