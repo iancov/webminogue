@@ -14,7 +14,11 @@
 }
 
 body{
-  background-color:rgb(225, 225, 210); 
+  background-image: url(sh_day_background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color:rgb(246, 250, 236); 
   max-width: 600px;
   margin: auto;
   box-sizing: border-box;
@@ -86,13 +90,20 @@ a:active {
 
 
 
-
+.night{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom:0;
+  padding-top: 10px;
+}
 
 .main{
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding-top: 0px;
   gap: 5px;
   padding-bottom: 10px;
 }
@@ -123,6 +134,7 @@ a:active {
 }
 
 .image{
+  background-color:rgb(246, 250, 236);
   height: auto;
   width: 500px;
   display: flex;
