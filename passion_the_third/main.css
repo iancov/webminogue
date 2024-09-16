@@ -1,0 +1,148 @@
+@font-face{
+  font-family:haiku;
+  src: url(Redaction35Italic-rgDrB.otf);
+}
+
+@font-face{
+  font-family:paragraph;
+  src: url(Redaction35-BWXjw.otf);
+}
+
+@font-face{
+  font-family:gothicpixels;
+  src: url(GothicPixels.ttf);
+}
+
+body{
+  background-color:rgb(225, 225, 210); 
+  max-width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.h1{
+  font-family:gothicpixels;
+  color: rgb(94, 86, 62);
+  font-size: 40px;
+  margin: 0;
+}
+
+.p1{
+  font-family:paragraph;
+  color: rgb(94, 86, 62);
+  font-size: 16px;
+  margin: 0;
+}
+
+.p2{
+  font-family:gothicpixels;
+  color: rgb(94, 86, 62);
+  font-size: 16px;
+  margin: 0;
+}
+
+.haiku{
+  font-family:haiku;
+  color: rgb(94, 86, 62);
+  font-size: 16p;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.credit{
+  font-family:haiku;
+  color: rgb(94, 86, 62);
+  font-size: 16p;
+  margin: 0;
+}
+
+.center{
+  text-align: center;
+}
+.em{
+  font-family:haiku;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+a:link {
+  color:rgb(94, 86, 62);
+}
+
+a:visited {
+  color:rgb(94, 86, 62);
+}
+
+a:hover {
+  color:rgb(94, 86, 62,.850);
+}
+
+a:active {
+  color:rgb(94, 86, 62);
+}
+
+
+
+
+
+
+.main{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  gap: 5px;
+  padding-bottom: 10px;
+}
+
+.heading{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.info{
+  height: auto;
+  display: flex;
+  padding: 10px;
+}
+
+.gallery{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+
+.image{
+  height: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-bottom: 10px;
+  border: double 4px rgb(94, 86, 62);
+}
+
+.bottom{
+  height: auto;
+  display: flex;
+  padding: 10px;
+}
+
+.credits{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 20px;
+}

@@ -23,9 +23,9 @@ body{
     src: url(Redaction20Italic-K7ZJe.otf);
   }
 
-img {
+.img {
     max-width:100%;
-    border: dashed 1px rgb(57, 57, 36);
+    border: solid 1px rgb(57, 57, 36);
 }
 
 .h1{
