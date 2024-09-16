@@ -5,6 +5,11 @@
 body{
     max-width: 500px;
     margin: auto;
+    background-image: url(../../webminogue_background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
     background-color: rgb(237, 237, 236)
 }
 
