@@ -1,0 +1,87 @@
+img {
+    max-width:100%;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(Grass_Background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    margin:0px;
+}
+
+
+
+
+
+.p1 {
+    color: white;
+}
+
+
+
+
+
+
+
+.topgrass {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 20000px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grass1 {
+    width: 7%;
+}
+
+.track {
+    width: 30%;
+    height: 19500px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-bottom: solid 2px white;
+}
+
+.row {
+    background: rgb(247, 98, 82);
+    width: 25%;
+    height: 19500px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+.grass2 {
+    width: 45%;
+}
+
+.stands {
+    background: rgb(160, 160, 160);
+    width: 15%;
+    height:19500px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.seat {
+    background: rgb(200, 200, 200);
+    height: 19500px;
+    width: 12.5%;
+    border-right: solid 2px rgb(100, 100, 100);
+}
+
+.grass3 {
+    width: 3%;
+}
