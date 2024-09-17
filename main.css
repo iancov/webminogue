@@ -5,7 +5,7 @@
 body{
     max-width: 500px;
     margin: auto;
-    background-image: url(webminogue_background.png);
+    background-image: url(callme054.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -30,26 +30,25 @@ body{
 
 .img {
     max-width:100%;
-    border: solid 1px rgb(57, 57, 36);
 }
 
 .h1{
     text-align: center;
     font-family:Redaction20Bold;
     font-size: 50px;
-    color: rgb(57, 57, 36)
+    color: rgb(220, 230, 225)
 }
 
 .p1{
     text-align: center;
     font-family:Redaction20;
-    color: rgb(57, 57, 36)
+    color: rgb(220, 230, 225)
 }
 
 .p2{
   text-align: center;
   font-family:Redaction20Italic;
-  color: rgb(57, 57, 36)
+  color: rgb(220, 230, 225)
 }
 
 .main{
@@ -62,29 +61,29 @@ body{
 
 .top{
   height: 85%;
-  border: solid 1px rgb(57, 57, 36);
+  border: solid 2px rgb(220, 230, 225);
   display: flex;
   flex-direction: column;
 }
 
 .top1{
-  height: 12.5%;
+  height: 14.5%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .top2{
-  height: 75%;
+  height: 71%;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .top3{
-  height: 12.5%;
+  height: 14.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,7 +102,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px rgb(57, 57, 36);
+  border: solid 2px rgb(220, 230, 225);
 }
 
 .right{
@@ -112,7 +111,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 1px rgb(57, 57, 36);
+  border: solid 2px rgb(220, 230, 225);
 }
 
 .credits{
@@ -120,7 +119,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px rgb(57, 57, 36);
+  border: solid 2px rgb(220, 230, 225);
 }
 
 
@@ -131,20 +130,20 @@ body{
 
  /* unvisited link */
  a:link {
-  color: rgb(57, 57, 36);
+  color: rgb(220, 230, 225);
 }
 
 /* visited link */
 a:visited {
-  color: rgb(57, 57, 36);
+  color: rgb(220, 230, 225);
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(57, 57, 36);
+  color: rgb(220, 230, 225);
 }
 
 /* selected link */
 a:active {
-  color: rgb(57, 57, 36);
+  color: rgb(220, 230, 225);
 } 
