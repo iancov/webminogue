@@ -1,0 +1,51 @@
+img {
+    max-width:100%;
+}
+
+body {
+    box-sizing: border-box;
+    background: url(bottom_right.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+}
+
+.p1 {
+    text-align: center;
+    color: black;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    width: 200px;
+    height: auto;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
