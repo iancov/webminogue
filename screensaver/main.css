@@ -1,0 +1,101 @@
+img {
+    max-width:100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pixelsunset.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+@font-face {
+    font-family:screenfont;
+    src: url(redaction35.otf);
+  }
+
+.text {
+    font-size: 23px;
+    text-align: justify;
+    line-height: 48px;
+    padding: 0;
+    margin: 0;
+    font-family: screenfont;
+}
+
+.p1{
+    color: rgb(255, 238, 0);
+}
+
+.p2{
+    color: rgb(255, 196, 0);
+}
+
+.p3{
+    color: rgb(255, 162, 0);
+}
+
+.p4{
+    color: rgb(255, 123, 0);
+}
+
+.p5{
+    color: rgb(255, 77, 0);
+}
+
+.p6{
+    color: rgb(255, 0, 0);
+}
+
+.everything {
+    display: flex;
+    flex-direction: row;
+}
+
+.rect {
+    background: rgb(255, 151, 5);
+    width: 500px;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    animation-name: set;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+@keyframes set {
+    0% {
+        background-color: rgb(255, 238, 0);
+    }
+    20% {
+        background-color: rgb(255, 196, 0);
+    }
+    40% {
+        background-color: rgb(255, 162, 0);
+    }
+    60% {
+        background-color: rgb(255, 123, 0);
+    }
+    80% {
+        background-color: rgb(255, 77, 0);
+    }
+    100% {
+        background-color: rgb(255, 0, 0);
+    }
+}
