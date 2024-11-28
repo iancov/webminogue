@@ -52,6 +52,12 @@ img {
   color: rgb(220, 230, 225)
 }
 
+.p3{
+  text-align: right;
+  font-family:Redaction20Italic;
+  color: rgb(78, 78, 64);
+}
+
 .main{
   height: 100vh;
   display: flex;
@@ -64,7 +70,7 @@ img {
   height: 95%;
   border: solid 2px rgb(220, 230, 225);
   display: flex;
-  flex-direction: column;
+  flex-flow: column;
   gap: 10px;
   padding: 10px;
 }
@@ -78,7 +84,33 @@ img {
   border: solid 2px rgb(220, 230, 225);
 }
 
-div.drawer:hover{
+.drawerpassion {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.drawerpassion1 {
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: solid 2px rgb(220, 230, 225);
+}
+
+.drawerpassion2 {
+  height: 40px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: solid 2px rgb(220, 230, 225);
+}
+
+.hover:hover{
   background-color:rgb(20,30,25);
 }
 
